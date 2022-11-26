@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="CSS/style.css">
+    
+    <style>
+        .container {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: stretch;
+          height: 32px;
+          border: 5px solid black;
+        }
+        .fixed {
+          flex: 0 0 100px;
+          background-color: #FF9999;
+        }
+        .rubbery {
+          flex: 1 1 25%;
+          background-color: #9999FF;
+        }
+
+        .image
+        {
+            display: inline-block;
+            width: 49%;
+            height: 200px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .SAMPLE
+        {
+            width: 100%;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="CLUSTER"></div>
+
+        <hr>
+        
+        <h2>предложения</h2>
+        
+        <div class="container">
+            <div class="rubbery">1</div>
+            <div class="fixed">2</div>
+        </div>
+        
+        <div>движение курсора слева на право меняет отображение до и после</div>
+        <img class="SAMPLE" src="IMG/SAMPLE/1.bmp">
+
+    </div>
+</body>
+
+<!--DATA-->
+<script type="text/javascript" src="DATA/data.js"></script>
+
+<!--JS-->
+<script type="text/javascript" src="JS/script.js"></script>
+
+</html>

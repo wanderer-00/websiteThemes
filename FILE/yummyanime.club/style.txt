@@ -1,0 +1,61 @@
+/* ÁËÎÊ ÑÅĞÈÀËÀ */
+li.profile-list{
+	display: inline-block;
+	height: 320px;
+	width: 200px;
+	background: red;
+	margin: 8px 0 0 8px;
+}
+/* ÑÑÛËÊÀ */
+.profile-list a{
+	height: 100%;
+
+}
+/* ? */
+.update-list li {
+	background: red;
+    position: relative;
+    overflow: hidden;
+}
+/* ÊÀĞÒÈÍÊÀ */
+.update-img{
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 270px;
+}
+/* Name, ÑÒÀÒÓÑ-ÒÎ×ÊÀ */
+.update-list-block{
+	line-height: 100%;
+	/* çàìåíà ïğîøëîãî ñòèëÿ */
+	display: block;
+	padding: 0;
+}
+/* ÑÒÀÒÓÑ-ÒÎ×ÊÀ */
+.dote {
+    position: absolute;
+    top: 6px;
+    left: 14px;
+    z-index: 1;
+	width: 12px;
+	height: 12px;
+	margin: 0px 4px;
+	border: 2px solid white;
+}
+/* NAME */
+.update-title{
+	font-size: 14px;
+}
+/* ÏÎĞÎÃ ĞÀÑÊĞÛÒÈß ÏÀĞÀÌÅÒĞÎÂ */
+/*@media (max-width: 900px)*/
+/*.list-buttons-list {*/
+/*    text-align: right;*/
+/*    -webkit-transform: none;*/
+/*    -ms-transform: none;*/
+/*    transform: none;*/
+/*    -webkit-transition: .8s;*/
+/*    -o-transition: .8s;*/
+/*    transition: .8s;*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*}*/

@@ -1,0 +1,53 @@
+/* ГЛАВНОЕ */
+/********************************************************************************/
+	/**:hover*/
+	/*{*/
+	/*	border: 1px solid red;*/
+	/*	box-sizing: border-box;*/
+	/*}*/
+
+	/* УДАЛЕНИЕ ЭЛЕМЕНТОВ */
+	.page-main__line:nth-child(3), /* Плейлист дня | Дежавю | Подкасты */
+	.page-main__line:nth-child(4), /* Интересно сейчас */
+	.page-main__line:nth-child(5), /* Подкасты и книги */
+	.page-main__line:nth-child(6), /* Новые релизы */
+	.page-main__line:nth-child(7), /* Хиты и новинки */
+	.page-main__line:nth-child(8), /* Чарт Яндекс Музыки */
+	.page-main__line:nth-child(10) /* Подборки */
+	{display: none !important}
+	
+	.rup__animation /* Анимация (видео) волны */
+	{display: none}
+	
+	.bar-below_plus /* Слушайте музыку в высоком качестве и без рекламы */
+	{display: none}
+	
+	.popup_visible .deco-tooltip /* Слушайте плейлист, чтобы цифра на счётчике начала расти */
+	{display: none} /* Аудиокнигу могут слушать только подписчики Яндекс Плюса */
+	
+	.notify /* Вероятно, у вас включен блокировщик рекламы.... */
+	{display: none}
+	
+	div.head-kids__user > .head-kids__promocode-link, /* Активировать промокод */
+	div.head-kids__user > .head-kids__plus-points /* Плюс */
+	{display: none}
+	
+	.multi-auth__plus-rainbow /* Слушайте музыку в высоком качестве без рекламы... */
+	{display: none}
+	
+	.sidebar__under > .teaser /* локальная реклама сайта (в правой колонке) */
+	{display: none}
+	
+	/************************************************************************/
+	/* КОРРЕКТИРОВКА ОТСТУПОВ */
+	.page-main__line_row /* Вы недавно слушали */
+	{margin-bottom: 0}
+	
+	.centerblock /* Центральная (главная) колонна */
+	{padding: 30px 30px 0}
+	
+	.rup__content-button /* Моя волна */
+	{margin: 20px auto 0}
+	.rup__content
+	{height: 180px}
+/************************************************************************************/

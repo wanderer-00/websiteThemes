@@ -1,0 +1,51 @@
+.body-container.night-mode 
+{ 
+  background-image: url(https://steamuserimages-a.akamaihd.net/ugc/177163242879770680/DA4FAE3E96BE639D0FEB6B690A2921BE46D8C0CE/) !important ; 
+  background-size: 100% !important; 
+  background-color: #0000 !important; 
+  background-attachment: fixed !important; 
+} 
+.body-container
+{
+  background-image: url(https://static.wallpapers-anime.com/upload/20170517/447/T/V/G/TVGFEF.jpg) !important ; 
+  background-size: 100% !important; 
+  background-color: #0000 !important; 
+  background-attachment: fixed !important; 
+}
+.night-mode .coub-block-col, 
+.night-mode .suggests, 
+.night-mode .coub--timeline 
+{
+  position: relative;
+}
+
+.night-mode .coub-block-col:before, 
+.night-mode .suggests:before, 
+.night-mode .coub--timeline:before
+{
+  content: '';
+  background-color: rgba(0,0,0,0.5) !important;
+  display: inline-block;
+  left: -5px;
+  right: -5px;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+.night-mode .coub-block-col {
+  margin-top: 5px;
+}
+
+.night-mode .coub--timeline:first-child:before {
+  top: -10px;
+}
+
+.night-mode .coub-block-col:before {
+  top: -10px;
+}
+
+.night-mode .suggests:before {
+  left: 3px;
+  right: 3px;
+}
